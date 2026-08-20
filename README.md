@@ -1,9 +1,9 @@
 <!-- Main Story Title Container -->
 <div style="max-width: 650px; margin: 0 auto; padding: 40px 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; line-height: 1.8; color: #e1e1e1; background-color: #0d1117;">
 
-  <!-- First Image -->
+  <!-- First Image (Fixed Capitalization) -->
   <div style="text-align: center; margin-bottom: 40px;">
-    <img src="1_view.png" alt="View" style="max-width: 100%; height: auto; border-radius: 4px; display: inline-block;">
+    <img src="1_View.png" alt="View" style="max-width: 100%; height: auto; border-radius: 4px; display: inline-block;">
   </div>
 
   <!-- Intro Hook -->
