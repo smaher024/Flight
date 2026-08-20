@@ -6,10 +6,14 @@
     <img src="1_View.png" alt="View" style="max-width: 100%; height: auto; border-radius: 4px; display: inline-block;">
   </div>
 
+
+
   <!-- Intro Hook -->
   <p style="text-align: center; font-style: italic; font-size: 1.2em; margin-bottom: 40px; color: #8b949e;">
     Amber.
   </p>
+
+
 
   <!-- Second Image -->
   <div style="text-align: center; margin-bottom: 40px;">
