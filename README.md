@@ -1,8 +1,8 @@
-(1 view.png)
+![](1 view.png)
 
 Amber.
 
-(2 Amber.png)
+![](2 Amber.png)
 
 Whispers of the mountain bear down on her, cold from the high peak. The sun's rays do little good here in presence of the beast, the colossal mass of stone, earth, ice, and low grass to be her marker. Her mind is racing. She's already died, the thoughts flying in her mind more surely than herself, ways to undo the mistakes of climbing too high on too little strength, hoping she would see something to eat, now only seeing the rapidly approaching ground. 
 
