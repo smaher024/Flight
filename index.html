@@ -63,6 +63,40 @@
       color: #c9d1d9;
       border-color: #8b949e;
     }
+
+    /* Reusable Clean Layout Classes */
+    .art-frame {
+      text-align: center; 
+      margin-bottom: 50px;
+    }
+    
+    .art-frame img {
+      width: 100%; 
+      max-width: 1100px; 
+      height: auto; 
+      border-radius: 6px; 
+      display: inline-block;
+    }
+
+    .text-column {
+      max-width: 750px; 
+      margin: 0 auto 60px auto;
+    }
+
+    .story-p {
+      margin-bottom: 30px; 
+      text-align: justify; 
+      font-size: 1.1em;
+    }
+
+    .dramatic-break {
+      text-align: center; 
+      font-style: italic; 
+      font-size: 1.3em; 
+      margin-top: 40px; 
+      margin-bottom: 50px; 
+      color: #8b949e;
+    }
   </style>
 </head>
 <body>
@@ -82,75 +116,106 @@
     </button>
   </div>
 
-  <!-- Main Story Container -->
-  <div style="max-width: 1100px; margin: 0 auto; padding: 40px 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; line-height: 1.8;">
+  <!-- Main Story Container Layout -->
+  <div style="padding: 40px 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; line-height: 1.8;">
 
-    <!-- First Image -->
-    <div style="text-align: center; margin-bottom: 50px;">
-      <img src="1_View.png" alt="View" style="width: 100%; max-width: 100%; height: auto; border-radius: 6px; display: inline-block;">
+    <!-- ==================== PANEL 1 ==================== -->
+    <div class="art-frame">
+      <img src="1_View.png" alt="View">
     </div>
 
-    <!-- Intro Hook -->
-    <p style="text-align: center; font-style: italic; font-size: 1.3em; margin-bottom: 50px; color: #8b949e;">
-      Amber.
-    </p>
+    <p class="dramatic-break">Amber.</p>
 
-    <!-- Second Image -->
-    <div style="text-align: center; margin-bottom: 50px;">
-      <img src="2_Amber.png" alt="Amber" style="width: 100%; max-width: 100%; height: auto; border-radius: 6px; display: inline-block;">
+    <!-- ==================== PANEL 2 ==================== -->
+    <div class="art-frame">
+      <img src="2_Amber.png" alt="Amber">
     </div>
 
-    <!-- Reading Text Column wrapper -->
-    <div style="max-width: 750px; margin: 0 auto;">
-      <p style="margin-bottom: 30px; text-align: justify; font-size: 1.1em;">
-        Whispers of the mountain bear down on her, cold from the high peak. The sun's rays do little good here in presence of the beast, the colossal mass of stone, earth, ice, and low grass to be her marker. Her mind is racing. She's already died, the thoughts flying in her mind more surely than herself, ways to undo the mistakes of climbing too high on too little strength, hoping she would see something to eat, now only seeing the rapidly approaching ground.
+    <div class="text-column">
+      <p class="story-p">
+        Whispers of the mountain bear down, cold from the high peak, kissing her back. The sun's rays do little good here in presence of the beast, a colossal mass of stone, earth, ice, and low grass to be her marker. Mind is racing, cramming where time is little. She's already died, the thoughts flying in her mind more surely than herself, ways to undo the mistake of climbing too high on too little strength. Hoping she would see something to eat, now only seeing the rapidly approaching ground.
       </p>
-
-      <p style="margin-bottom: 30px; text-align: justify; font-size: 1.1em;">
-        It had been days since the last time she ate, and the harder winds of the region always drive against her with their own unexpected, shifting invisible goals. Accurate to note, the dark intruder is the new aspect to the skies, rather than the wind itself. Wind only exists Amber, your invasion of it has been long tolerated, is it no wonder you'd fall from it climatically? Likely not to be buried, and picked apart by animals.
-      </p>
-
-      <p style="margin-bottom: 30px; text-align: justify; font-size: 1.1em;">
-        Incredible, the options of her ruin are limitless. The side of the mountain as firm as it gets, forever preserved limbs clutched onto the edge of some high-up rock face. A bird's nest could be made from her bones, perhaps giving life where none would exist otherwise. There is also the grass scrub, or the channel of sand at the base of the mountain, or the dry river rocks. She could climb higher too, and would surely drop completely any moment after. Invisible knives are buried into her shoulders, and every additional second of holding her wings tight, of keeping herself aloft, their edge grows sharper.
-      </p>
-
-      <!-- Dramatic Mid-Point -->
-      <p style="text-align: center; font-style: italic; font-size: 1.3em; margin-top: 50px; margin-bottom: 50px; color: #8b949e;">
-        Amber.
-      </p>
-
-      <!-- Final Paragraph -->
-      <p style="margin-bottom: 50px; text-align: justify; font-size: 1.1em;">
-        There is no going outside of this moment, not now. Counting isn't helping, the pain is real, impossible to ignore, and it is spreading. In her mind, she hopes she can hold it until she gets to the ground safely, like countless times before, but that will not happen in the 5 seconds of time she has left before falling. There's no infinite strength to her frame, this is it.
+      <p class="story-p">
+        It had been days since the last time she had eaten, not exactly food, and added further were the harder winds of the region, always driving against her with their own unexpected, shifting invisible goals. Accurate to note, the dark intruder is the new aspect to the skies, rather than the wind itself. Wind only exists Amber, your invasion of it has been long tolerated, is it no wonder you'd fall from it climatically? Likely not to be buried, and picked apart by animals.
       </p>
     </div>
 
-    <!-- Remaining Images Queue -->
-    <div style="text-align: center; margin-top: 60px;">
-      <div style="margin-bottom: 50px;">
-        <img src="3_sight.png" alt="Sight" style="width: 100%; max-width: 100%; height: auto; border-radius: 6px;">
-      </div>
-      <div style="margin-bottom: 50px;">
-        <img src="4_rock.png" alt="Rock" style="width: 100%; max-width: 100%; height: auto; border-radius: 6px;">
-      </div>
-      <div style="margin-bottom: 50px;">
-        <img src="5_out.png" alt="Out" style="width: 100%; max-width: 100%; height: auto; border-radius: 6px;">
-      </div>
-      <div style="margin-bottom: 50px;">
-        <img src="6_wake.gif" alt="Wake" style="width: 100%; max-width: 100%; height: auto; border-radius: 6px;">
-      </div>
-      <div style="margin-bottom: 50px;">
-        <img src="7_sit.png" alt="Sit" style="width: 100%; max-width: 100%; height: auto; border-radius: 6px;">
-      </div>
-      <!-- Added: The New 8_See Animation -->
-      <div style="margin-bottom: 50px;">
-        <img src="8_See.gif" alt="See" style="width: 100%; max-width: 100%; height: auto; border-radius: 6px;">
-      </div>
+    <!-- ==================== PANEL 3 ==================== -->
+    <div class="art-frame">
+      <img src="3_sight.png" alt="Sight">
     </div>
 
-  </div>
+    <div class="text-column">
+      <p class="story-p">
+        Incredible, the options of her ruin are nearly limitless. There's the side of the mountain, as firm as it gets, and forever preserved limbs probably clutched onto the edge of some high-up rock face. A bird's nest could be made from her bones, perhaps giving life where none would exist otherwise. As an opposite, the low grass scrub, or the channel of sand at the base of the mountain, or consider the dry river rocks opposite them both. A red and black marker to be seen for miles there. Amber could climb higher too, and would surely drop completely any moment after. Invisible knives are buried into her shoulders going down her back, and every additional second of holding her wings tight, of keeping herself aloft, their edge grew sharper.
+      </p>
+      
+      <p class="dramatic-break">Amber.</p>
 
-  <!-- Smart Music Toggle Script -->
+      <p class="story-p">
+        There is no going outside of this moment, not now. Why reflect, nobody else will know? Counting isn't helping, the pain is real and unignorable, and it is deftly spreading. In her mind, she hopes she can hold on until she gets to the ground safely, as countless times before, but height will outlast her. There's no infinite strength to her frame, this is it.
+      </p>
+    </div>
+
+    <!-- ==================== PANEL 4 ==================== -->
+    <div class="art-frame">
+      <img src="4_rock.png" alt="Rock">
+    </div>
+
+    <div class="text-column">
+      <p class="story-p">
+        Terror drives her, aiming for the sand isn't going to help, the softness of it is an illusion. It pretends to be comforting, compared to river stone or the side of a mountain, but nothing is truly soft when falling down from heaven like an obsidian rock. Rather than splattering into the ground and stopping instantly, there will be a terrible shredding, Amber. Dispersed to the sands beneath this likely named mountain, giving you an unnamed grave. That is unless you're dead-set on crashing into the only obstacle in th—
+      </p>
+    </div>
+
+    <!-- ==================== PANEL 5 ==================== -->
+    <div class="art-frame">
+      <img src="5_out.png" alt="Out">
+    </div>
+
+    <p class="dramatic-break">Amber.</p>
+
+    <!-- ==================== PANEL 6 ==================== -->
+    <div class="art-frame">
+      <img src="6_wake.gif" alt="Wake">
+    </div>
+
+    <div class="text-column">
+      <p class="story-p">
+        Alive. Still.
+      </p>
+      <p class="story-p">
+        Head pounding, horns are ringing like they're full of stinging bees, even her tongue hurts. A sharp pain running down the middle of her back, warm blood slowly trickling down to gather in the sand behind her. Very good fortune Amber's tail hadn't done more damage, like cutting into the spine, getting stuck in her back, or severing a wing. A loss of flight would be its own death, wouldn't it? One more deserved than only falling.
+      </p>
+    </div>
+
+    <!-- ==================== PANEL 7 ==================== -->
+    <div class="art-frame">
+      <img src="7_sit.png" alt="Sit">
+    </div>
+
+    <div class="text-column">
+      <p class="story-p">
+        Well, not many options from this point. Starving is a possible avenue still on the plate, ironically, but withering slow on the ground might not be better than flying high and pulling her wings tight, falling. At least then it would just be over, the hunger pulling at her isn't adding to her rational choices, knowing the future suffering to follow. But fate is leading to another terrible possible end either way. She would rather do it where nobody and nothing was close at all, at least. That's the minimum she can try to manage.
+      </p>
+      <p class="story-p">
+        Cold wind digs low even in this spot, curling around the large rock next to Amber as surely as the water did when it fell and gathered here to make this patch of sand. Did the rock mind? It was large, more than just large actually, and polished, shining even this deep in the night. Years of water and wind had carved it, interchangeably, one never in the presence of the other, but both carving the boulder in their own way. The black stone losing a bit at a time. Amber reached out to touch it with her clawed hand, but now she heard breathing.
+      </p>
+    </div>
+
+    <!-- ==================== PANEL 8 ==================== -->
+    <div class="art-frame">
+      <img src="8_See.gif" alt="See">
+    </div>
+
+    <div class="text-column" style="margin-bottom: 40px;">
+      <p class="story-p">
+        Food is always ideal. There's a total importance of having it to ensure life goes smoothly. It's an inherent pull for most, and there will never be enough for everyone. So to have a full living deer Amber, right when you needed it most, for you, is great luck. A bow and ribbon should perhaps adorn it, a symbolic gift from whatever dark authority keeps you sustained.
+      </p>
+    </div>
+
+  </div> <!-- Closed Main Container Layout -->
+
   <script>
     var music = document.getElementById("bg-music");
     var btn = document.getElementById("music-btn");
