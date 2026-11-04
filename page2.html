@@ -1,17 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flight</title>
+    <!-- Discord preview -->
+  <meta property="og:title" content="Flight" />
+  <meta property="og:description" content="" />
+  <meta property="og:image" content="https://madebymalice.com/Logo.png" />
+  <meta name="twitter:image" content="https://madebymalice.com/Logo.png" />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
 
-    <title></title>
+  <style>
+    body {
+      background-color: #0d1117 !important;
+      color: #e1e1e1 !important;
+      margin: 0;
+      padding: 0;
+    }
+  </style>
 </head>
 <body>
 
-    <main>
-        <p>Text here please.</p>
-    </main>
+  <!-- audio stuff -->
+  <audio id="bg-music" loop>
+    <source src="ambient_2.mp3" type="audio/mpeg">
+  </audio>
 
-</body>
-</html>
+  <!-- floating thing -->
+  <div style="position: fixed; bottom: 24px; right: 24px; z-index: 9999; display: flex; flex-direction: column; align-items: flex-end; gap: 6px;">
+    <a href="https://pixabay.com/users/tunetank-50201703/" target="_blank" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 0.75em; color: #8b949e; text-decoration: none; background-color: rgba(13, 17, 23, 0.7); padding: 2px 8px; border-radius: 4px;">
+      🎵 Music by Tunetank
+    </a>
+    <button id="music-btn" onclick="toggleMusic()" style="background-color: rgba(21, 27, 38, 0.85); color: #8b949e; border: 1px solid #30363d; padding: 10px 16px; border-radius: 30px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 0.9em; cursor: pointer; display: flex; align-items: center; gap: 8px; backdrop-filter: blur(8px); box-shadow: 0 4px 12px rgba(0,0,0,0.3);">
+      <span>🔈</span> <span>Play Ambient Track</span>
+    </button>
+  </div>
+
+  
+  <div style="max-width: 1100px; margin: 0 auto; padding: 40px 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; line-height: 1.8;">
+
+    <!-- panel 15 -->
+    <div style="text-align: center; margin-bottom: 50px;">
+      <img src="15_Rocket.png" alt="View" style="width: 100%; max-width: 100%; height: auto; border-radius: 6px; display: inline-block;">
+    </div>
+
+    <div style="max-width: 750px; margin: 0 auto 60px auto;">
+      <p style="margin-bottom: 30px; text-align: justify; font-size: 1.1em;">
+        Text goes here please, and thank you.
+      </p>
