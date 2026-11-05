@@ -50,3 +50,19 @@
       <p style="margin-bottom: 30px; text-align: justify; font-size: 1.1em;">
         Text goes here please, and thank you.
       </p>
+
+          
+    <script>
+        const music = document.getElementById('bg-music');
+        const btn = document.getElementById('music-btn');
+        
+        function toggleMusic() {
+            if (music.paused) {
+                music.play();
+                btn.innerHTML = '<span>🔊</span><span>Pause Ambient Track</span>';
+            } else {
+                music.pause();
+                btn.innerHTML = '<span>🔈</span><span>Play Ambient Track</span>';
+            }
+        }
+    </script>
